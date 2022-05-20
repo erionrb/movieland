@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "http://www.omdbapi.com?apikey=7254d84e(.*)",
+      "source": "http://www.omdbapi.com(.*)",
       "headers": [
         { "key": "Access-Control-Allow-Credentials", "value": "true" },
         { "key": "Access-Control-Allow-Origin", "value": "*" },
